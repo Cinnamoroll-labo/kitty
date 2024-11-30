@@ -1,0 +1,76 @@
+body {
+    font-family: 'Meiryo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.screen {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+#start-btn, #choice1, #choice2 {
+    background-color: #4DD0E1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+#question-text {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.question-line {
+    font-size: 22px;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+#result-text {
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.correct {
+    color: red;
+}
+
+.incorrect {
+    color: blue;
+}
+
+/* スマートフォン向けメディアクエリ */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .question-line {
+        font-size: 18px;
+    }
+
+    #start-btn, #choice1, #choice2 {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超簡単 2択クイズ！</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title-screen" class="screen">
+        <h1>超簡単 2択クイズ！</h1>
+        <button id="start-btn">スタート</button>
+    </div>
+
+    <div id="quiz-screen" class="screen" style="display: none;">
+        <div id="result-text"></div>
+        <div id="question-text">
+            <p class="question-line"></p>
+            <p class="question-line"></p>
+        </div>
+        <div id="choice-buttons">
+            <button id="choice1"></button>
+            <button id="choice2"></button>
+        </div>
+        <div id="next-area"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
